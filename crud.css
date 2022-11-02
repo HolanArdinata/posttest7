@@ -1,0 +1,66 @@
+form {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+body {
+    display: block;
+    background-image: url(img/2.avif);
+    background-size: cover;
+    font-family: 'Sora', sans-serif;
+}
+
+table {
+    margin-top: 20px;
+    margin: auto;
+    width: 40%;
+    height: 20  0%;
+    box-shadow:  2px  5px 10px ;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+input {
+    background: white;
+    color: black;
+    border-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+textarea {
+    background: none;
+    color: white;
+    border-color: white;
+}
+
+button {
+    margin-top: 20px;
+    background: none;
+    color: white;
+    border-color: white;
+    width: 50px;
+}
+
+.backk {
+	padding: 0px 0px;
+	border: 20;
+	border-radius: 5px;
+	border-top-right-radius: 30px;
+	cursor: pointer;
+    text-decoration:none;
+	margin: 5px;
+    width:14%;
+	background: #333;
+	font-size: 33px;
+	font-family: Tahoma, sans-serif;
+	color: black;
+	position: absolute;
+	left: -10px;  
+	bottom: -125px;
+}
+
+

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body{
+    background-color: khaki;
+    margin: 40px;
+}
+
+body darkmode {
+	display: flex;
+	height: 50vh;
+	transition: background 0.2s linear;
+}
+
+body.dark {
+	background: #292C35;
+}
+
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+    margin: 0 50px;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
+.header{
+    text-align: center;
+    margin: 0 px;
+    margin-bottom: 20px;
+}
+.logo h1 a {
+    font-family: 'Sora', sans-serif;
+    text-decoration:none;
+    color:white ;
+   
+}
+.logo h1  {
+    font-family: 'Sora', sans-serif;
+    text-decoration:none;
+    color:white ;
+   
+}
+.text{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding: 10px 10px;
+    margin: 0;
+    width: 100%;
+}
+.text ul li a{
+    display:inline-block;
+}
+
+.image img {
+    margin-bottom: 1%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;   
+}
+footer{
+
+    margin: 0 auto;
+    position:absolute;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    color: black;
+    margin-bottom: 0%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+}
